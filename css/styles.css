@@ -110,7 +110,9 @@ header h1 {
 .title-left {
   float: right;
   border-right: 1px solid #58585A;
-  padding: 11rem 4rem;
+  padding: 10rem 4rem 20rem 4rem;
+  position: absolute;
+  margin-left: 10rem;
 }
 
 .team-img {
@@ -126,26 +128,43 @@ header h1 {
 /*contact*/
 
 .social {
-  margin: 0 0 2rem 6rem;
+  margin: 17rem 0 0rem 15.5rem;
  }
+
+.contact p{
+  margin: 1rem 0 0 10.5rem;
+  text-align: center;
+ }
+
 .social p {
   margin: 0 0 2rem 6rem;
  }
 
- .social li {
+.social li {
   display: inline-block;
+  margin: 0 2px 0 2px;
  }
 
- .social img {
+.social img {
   width: 25px;
  }
  
-.send input, textarea{
+.send input, textarea, button{
   border: 1px solid;
   padding: 1rem;
   margin: 1rem;
+  background: transparent;
 }
 
+.send button:hover{
+  background: #000;
+  color: #fff;
+}
+
+.send{
+  margin-right:  27rem;
+  margin-top: 5rem;
+}
 
 
 
