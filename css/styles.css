@@ -85,19 +85,27 @@ h1 {
   margin: 160px 0px 50px 65px;
 }
 
-.acerca p{
+.acerca p {
   width: 61rem;
   margin-left: 10rem;
 }
 
-.right{
+.right {
   float: right;
   border-left: 1px solid #58585A;
   margin: 11rem 10rem 0 0;
   padding: 11rem 4rem;
 }
 
+.team-img {
+  width: 17rem;
+}
 
+.team li {
+  display: inline-block;
+  margin: 5rem 1rem 4rem 6.5rem;
+  text-align: center;
+}
 
 /*buttons*/
 
