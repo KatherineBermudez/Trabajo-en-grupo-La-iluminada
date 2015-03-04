@@ -103,7 +103,7 @@ header h1 {
 }
 
 .content{
-  width: 68%;
+  width: 865px;
 }
 .miniatura-producto {
   display: block;
@@ -165,7 +165,6 @@ header h1 {
 .producto-info {
   margin-left: 40px;
   display: inline-block;
-  width: 400px;
 
 }
 
@@ -248,8 +247,8 @@ header h1 {
   position: relative;
   float: left;
   background-color: #BEE8FA;
-  width: 240px;
-  height: 332px;
+  width: 235px;
+  height: 300px;
   padding: 0.5rem;
 }
 
@@ -264,7 +263,7 @@ header h1 {
 .proy h2 {
   color: #3d5764;
   margin-bottom: 20px;
-  font-size: 22px; 
+  font-size: 18px; 
 
 }
 
