@@ -24,9 +24,18 @@ html {
   padding: 0;
 }
 
+
+
 body {
-  font-size: 16px;
-  font-size: 1.6rem;
+   font-size: 16px;
+    font-size: 1.6rem;
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -46,9 +55,6 @@ nav li {
   display: inline-block;
   margin-left: 15px;
   font-size: 15px;
-}
-nav li:hover {
- border-bottom: 1px solid #58585A;
 }
 
 header h1 {
@@ -79,6 +85,320 @@ header h1 {
   font-weight: 100
 }
 
+.sub-title {
+  font-size:12px;
+  margin-bottom: 9px;
+  text-align: center; 
+}
+
+/*------productos--------------------------------------------------*/
+
+#productos{
+  position: relative;
+  overflow: hidden;
+  float: right;
+  background-color: #fff;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.content{
+  width: 68%;
+}
+.miniatura-producto {
+  display: block;
+  margin-right: 0.5%;
+  float: left;
+  overflow: hidden;
+  
+}
+
+.prod { 
+  margin: 0.75rem;
+  display: inline-block;
+  position: relative;
+  float: left;
+  background-color: #fff;
+  width: 271px;
+  height: 360px;
+  padding: 0.5rem;
+}
+
+.prod img {
+  height: 260px;
+  width: 260px;
+  margin: 0 auto 15px auto;
+  display: block;
+
+}
+
+.prod h2 {
+  color: #3d5764;
+  margin-bottom: 20px;
+
+}
+
+.prod h3 {
+  color: #5a8294;
+  display: block;
+  font-size: 1rem;
+
+}
+
+.display-producto {
+  background-color: #bee8fa;
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 3% 5%;
+  display: none;
+}
+
+.display-producto img {
+  float: left;
+  margin: 0 auto;
+  height:410px;
+  width:410px;
+}
+
+.producto-info {
+  margin-left: 40px;
+  display: inline-block;
+  width: 400px;
+
+}
+
+.producto-info h2 {
+  color: #01A9DB;
+  margin: 0;
+}
+
+.producto-info h3 {
+  color: #000;
+  font-size: 1rem;
+}
+
+.producto-info p span {
+
+  color: #000;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.producto-info p { 
+
+  display: block;
+
+}
+
+
+
+.prod i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.5rem solid transparent;
+    margin-top: -1.5rem;
+    border-bottom: 1.5rem solid #BEE8FA;
+    left: 45%;
+    bottom: -15px;
+    display: none;
+}
+
+.paginacion-productos{
+  display: block;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  margin:0 auto;
+}
+
+
+
+
+/*------proyectos--------------------------------------------------*/
+
+
+
+
+#proyectos{
+  position: relative;
+  background-color: #BEE8FA;
+  display: block;
+  float: left;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.miniatura-proyecto {
+  display: inline-block;
+  position: relative;
+  margin-right: 0.5%;
+  padding-left: 20px;
+  overflow: hidden;
+  
+}
+
+.proy { 
+  margin: 0.75rem;
+  display: inline-block;
+  position: relative;
+  float: left;
+  background-color: #BEE8FA;
+  width: 240px;
+  height: 332px;
+  padding: 0.5rem;
+}
+
+.proy img {
+  height: 225px;
+  width: 225px;
+  margin: 0  auto;
+  display: block;
+
+}
+
+.proy h2 {
+  color: #3d5764;
+  margin-bottom: 20px;
+  font-size: 22px; 
+
+}
+
+.proy h3 {
+  color: #5a8294;
+  display: block;
+  font-size: 20px;
+
+}
+
+.display-proyecto {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  display: none;
+}
+
+.display-proyecto img {
+  display: block;
+  float: left;
+  width: 947px;
+  height:541px;
+}
+
+
+.proyecto-info {
+  padding: 40px ;
+  display: inline-block;
+  float: left;
+  width: 40%;
+  background-color: #5A8294;
+
+}
+
+
+.display-proyecto p {
+  display: inline-block;
+  background-color: #fff;
+  float: left;
+  padding: 40px;
+  margin: 0;
+  width: 40%;
+}
+
+
+
+.proyecto-info h2 {
+  color: #01A9DB;
+  margin: 0;
+}
+
+.proyecto-info h3 {
+  color: #000;
+  font-size: 1rem;
+}
+
+.proyecto-info p span {
+
+  color: #000;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.proyecto-info p { 
+
+  display: inline-block;
+
+}
+
+.proy i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.5rem solid transparent;
+    margin-top: -1.5rem;
+    border-bottom: 1.5rem solid #fff;
+    left: 45%;
+    top: -8px;
+    display: none;
+}
+
+
+/*noticias*/
+
+.noticias{
+
+margin-bottom: 5rem;
+display: inline-block;
+/*overflow: hidden;*/
+}
+
+.colum-1{
+  width: 50rem;
+  float: left;
+  /* margin-right: 44rem; */
+  margin: 8rem 4rem;
+}
+
+.colum-1 + img{
+  width: 34rem;
+  float: right;
+  /* position: absolute; */
+  /* margin-left: 53rem; */
+  margin-top: 5rem;
+}
+
+.p-large{
+  width: 83rem;
+  float: right;
+  margin: 4rem;
+  margin-left: 10rem;
+}
+
+.width-img{
+  width: 16rem;
+  height: 12rem;
+}
+
+
+.mas-noticias ul {
+  display: inline-block;
+  float: right;
+}
+
+.mas-noticias li {
+  display: inline-block;
+  padding-left: 5rem;
+}
+
+
 /*acerca*/
 
 .banner {
@@ -108,11 +428,11 @@ header h1 {
 }
 
 .title-left {
-  float: right;
+  float: left;
   border-right: 1px solid #58585A;
-  padding: 10rem 4rem 20rem 4rem;
-  position: absolute;
+  padding: 10rem 4rem;
   margin-left: 10rem;
+  margin-top: 5rem;
 }
 
 .team-img {
@@ -128,7 +448,8 @@ header h1 {
 /*contact*/
 
 .social {
-  margin: 17rem 0 0rem 15.5rem;
+  margin: 21rem 0 0rem 14.5rem;
+  position: absolute;
  }
 
 .contact p{
@@ -145,8 +466,9 @@ header h1 {
   margin: 0 2px 0 2px;
  }
 
+
 .social img {
-  width: 25px;
+  width: 35px;
  }
  
 .send input, textarea, button{
@@ -173,12 +495,74 @@ header h1 {
 
 /* #Layout
 ================================================= */
+.prod:hover {
 
+  background-color: #F0F1F2;
+}
 
+.pagina:first-child:hover, .pagina:last-child:hover{
+  background-color: #494949;
+}
+
+/*proyectos*/
+
+.proy:hover {
+
+  background-color: #F0F1F2;
+}
+
+.proy:hover .proy i{
+
+  border-bottom: 1.5rem solid #F0F1F2;
+}
+
+.comprar:hover {
+  background-color: #3D5764;
+  color: #fff;
+}
+
+nav li:hover {
+ border-bottom: 2px solid #58585A;
+}
+
+ .social li:hover {
+ border-bottom: 2px solid #BEE8FA;
+ }
 
 /* #Modules 
 ================================================= */
 
+
+.pagina{
+  display: inline-block;
+  background-color: #929292;
+  color: #fff;
+  margin: 5px;
+  padding: 10px 15px;
+}
+
+.seleccionado{
+  background-color: #BEE8FA;
+}
+
+
+.paginas-proyectos{
+  display: inline-block;
+  float: left;
+  margin-top: 150px;
+}
+
+.comprar{
+  color: #3D5764;
+  padding: 20px 25px;
+  border: 1px solid #3D5764;
+  position: absolute;
+  bottom: 75px;
+}
+
+.blanco{
+ background-color: #fff;
+}
 
 
 
