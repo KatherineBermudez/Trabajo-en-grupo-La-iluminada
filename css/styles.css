@@ -48,7 +48,7 @@ nav li {
   font-size: 15px;
 }
 nav li:hover {
- border-bottom: 1px solid #58585A;
+ border-bottom: 2px solid #58585A;
 }
 
 header h1 {
@@ -79,6 +79,48 @@ header h1 {
   font-weight: 100
 }
 
+.sub-title {
+  font-size:12px;
+  margin-bottom: 9px;
+  text-align: center; 
+}
+
+/*noticias*/
+
+.colum-1{
+  width: 43rem;
+  float: right;
+  margin-right: 44rem;
+  margin-top: 8rem;
+}
+
+.colum-1 + img{
+  width: 34rem;
+  float: right;
+  position: absolute;
+  margin-left: 53rem;
+  margin-top: 5rem;
+}
+
+.p-large{
+  width: 83rem;
+  float: right;
+  margin: 4rem;
+  margin-left: 10rem;
+}
+
+.width-img{
+  width: 16rem;
+  height: 12rem;
+}
+
+.mas-noticias li {
+  display: inline-block;
+  padding-top: 19rem;
+  padding-left: 5rem;
+}
+
+
 /*acerca*/
 
 .banner {
@@ -108,11 +150,11 @@ header h1 {
 }
 
 .title-left {
-  float: right;
+  float: left;
   border-right: 1px solid #58585A;
-  padding: 10rem 4rem 20rem 4rem;
-  position: absolute;
+  padding: 10rem 4rem;
   margin-left: 10rem;
+  margin-top: 5rem;
 }
 
 .team-img {
@@ -128,7 +170,8 @@ header h1 {
 /*contact*/
 
 .social {
-  margin: 17rem 0 0rem 14.5rem;
+  margin: 21rem 0 0rem 14.5rem;
+  position: absolute;
  }
 
 .contact p{
@@ -143,6 +186,10 @@ header h1 {
 .social li {
   display: inline-block;
   margin: 0 2px 0 2px;
+ }
+
+ .social li:hover {
+ border-bottom: 2px solid #BEE8FA;
  }
 
 .social img {
