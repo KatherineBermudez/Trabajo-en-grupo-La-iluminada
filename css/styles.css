@@ -279,6 +279,7 @@ header h1 {
   background-color: #fff;
   overflow: hidden;
   display: inline-block;
+  max-width: 865px;
   float: left;
   display: none;
 }
